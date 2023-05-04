@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Assembly Records Management System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Assembly Records Management System</h1>
+  </header>
+  <main>
+    <section>
+      <h2>Incoming Mails</h2>
+      <form action="upload.php" method="post" enctype="multipart/form-data">
+        <div class="form-group">
+          <label for="received_date">Date Received:</label>
+          <input type="date" id="received_date" name="received_date" required>
+        </div>
+        <div class="form-group">
+          <label for="received_by">To Whom Received:</label>
+          <input type="text" id="received_by" name="received_by" required>
+        </div>
+        <div class="form-group">
+          <label for="letter_date">Date of Letter:</label>
+          <input type="date" id="letter_date" name="letter_date" required>
+        </div>
+        <div class="form-group">
+          <label for="file_number">File Number:</label>
+          <input type="text" id="file_number" name="file_number" required>
+        </div>
+        <div class="form-group">
+          <label for="subject">Subject:</label>
+          <input type="text" id="subject" name="subject" required>
+        </div>
+        <div class="form-group">
+          <label for="upload_file">Upload File:</label>
+          <input type="file" id="upload_file" name="upload_file" required>
+        </div>
+        <div class="form-group">
+          <input type="submit" value="Upload">
+        </div>
+      </form>
+    </section>
+    <section>
+      <h2>Outgoing Mails</h2>
+      <form action="upload.php" method="post" enctype="multipart/form-data">
+        <div class="form-group">
+          <label for="dispatched_date">Date Dispatched:</label>
+          <input type="date" id="dispatched_date" name="dispatched_date" required>
+        </div>
+        <div class="form-group">
+          <label for="sent_to">To Whom Sent:</label>
+          <input type="text" id="sent_to" name="sent_to" required>
+        </div>
+        <div class="form-group">
+          <label for="letter_date">Date of Letter:</label>
+          <input type="date" id="letter_date" name="letter_date" required>
+        </div>
+        <div class="form-group">
+          <label for="file_number">File Number:</label>
+          <input type="text" id="file_number" name="file_number" required>
+        </div>
+        <div class="form-group">
+          <label for="subject">Subject:</label>
+          <input type="text" id="subject" name="subject" required>
+        </div>
+        <div class="form-group">
+          <label for="upload_file">Upload File:</label>
+          <input type="file" id="upload_file" name="upload_file" required>
+        </div>
+        <div class="form-group
